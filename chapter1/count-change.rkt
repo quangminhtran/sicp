@@ -1,6 +1,6 @@
 #lang racket
 
-; Recurisvely calculate the number of possible changes. OMG the sicp's solution is soooo beautifully!
+; Recurisvely calculate the number of possible changes. OMG the sicp's solution is soooo beautiful!
 (define (cc amount kinds-of-coins)
   (cond ((= amount 0) 1)
         ((or (< amount 0) (= kinds-of-coins 0)) 0)
