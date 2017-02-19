@@ -31,8 +31,8 @@
 ; Calculate b^n using successive squaring (fast!)
 ; b^n = (b^{n/2})^2 if n is even
 ; b^n = b*b^{n-1}   if n is odd
-; Time
-; Space
+; Time  O(log n) 
+; Space O(log n)
 (define (square x)
   (* x x))
 
